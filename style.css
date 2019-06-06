@@ -13,7 +13,7 @@ a {
   text-align: center;
   font-size: 40px;
   font-weight: bold;
-  background-color: #F08080;
+  background-color: rgb(210, 172, 235);
   color: #fff;
 }
 
@@ -38,7 +38,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #F08080;
+  color: rgb(210, 172, 235);
 }
 
 a:focus {
@@ -51,7 +51,7 @@ a:focus {
 }
 
 .navlink.active {
-  box-shadow: inset 0 -3px #F08080;
+  box-shadow: inset 0 -3px rgb(210, 172, 235);
 }
 
 
@@ -81,7 +81,7 @@ a:focus {
   font-size: 16px;
   background: none;
   border: none;
-  color: #F08080;
+  color: rgb(210, 172, 235);
   cursor: pointer;
 }
 
@@ -103,7 +103,7 @@ a:focus {
   height: 60px;
   width: 60px;
   font-size: 20px;
-  background-color: #F08080;
+  background-color: rgb(210, 172, 235);
   color: #fff;
   cursor: pointer;
   
@@ -118,7 +118,7 @@ a:focus {
 
   font-size: 36px;
   background-color: white;
-  color : #F08080;
+  color : rgb(210, 172, 235);
 }
 
 #create-adoption-button:focus {
