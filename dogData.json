@@ -1,0 +1,60 @@
+[
+    {
+      "name": "Doug",
+      "breed": "Corgi",
+      "price": "$200",
+      "gender": "Male",
+      "description": "He is a loyal dog."
+    },
+    {
+      "name": "Coco",
+      "breed": "Shih-Tzu",
+      "price": "$225",
+      "gender": "Female",
+      "description": "She loves to take naps."
+    },
+    {
+      "name": "Jake",
+      "breed": "Great Dane",
+      "price": "$200",
+      "gender": "Male",
+      "description": "He loves to run outside."
+    },
+    {
+      "name": "Ginger",
+      "breed": "King Charles Cavalier Spaniel",
+      "price": "$275",
+      "gender": "Female",
+      "description": "She thinks she's a cat."
+    },
+    {
+      "name": "Penny",
+      "breed": "Italian Greyhound",
+      "price": "$185",
+      "gender": "Female",
+      "description": "She is very shy."
+    },
+    {
+      "name": "Tofu",
+      "breed": "Maltese",
+      "price": "$200",
+      "gender": "Male",
+      "description": "He loves taking baths"
+    },
+    {
+      "name": "Shark",
+      "breed": "Chihuahua",
+      "price": "$100",
+      "gender": "Male",
+      "description": "He likes to chase his shadow"
+    },
+    {
+      "name": "Paningning",
+      "breed": "Shih-Tzu",
+      "price": "$700",
+      "gender": "Female",
+      "description": "She only sleeps on her back."
+    },
+    
+  ]
+  
