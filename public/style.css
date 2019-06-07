@@ -21,6 +21,7 @@ a {
   background-color: #fff;
   font-size: 18px;
   line-height: 22px;
+  margin: 0;
 }
 
 .navlist {
@@ -58,7 +59,7 @@ a:focus {
 
 .navitem.navbar-search {
   position: absolute;
-  top:50px;
+  top:255px;
   right:10px;
   padding: 1px;
 }
