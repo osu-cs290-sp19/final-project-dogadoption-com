@@ -1,27 +1,25 @@
-<main class="post-container">
-    <article class="post">
 
-        <div class="picture">
-            <img src = "" alt = "A picture of a dog" width="500"> 
-        </div>
+<article class="post">
 
-        <div class="post-content">
-            <p class="name">
-                Doug
-            </p>
-            <p class="breed">
-                Corgi
-            </p>
-            <p class= "price">
-                $100
-            </p>
-            <p class= "gender">
-                Male
-            </p>
-            <p class="description">
-                He is a loyal dog. 
-            </p>
-        </div>
+    <div class="picture">
+        <img src="{{url}}" class="dog-photo-image"/>
+    </div>
 
-    </article>
-</main>
+    <div class="post-content">
+        <p class="name">
+            Name: {{name}}
+        </p>
+        <p class="breed">
+            Breed: {{breed}}
+        </p>
+        <p class= "price">
+            Adoption Fee: {{price}}
+        </p>
+        <p class= "gender">
+            Gender: {{gender}}
+        </p>
+        <p class="description">
+            Description: {{description}}
+        </p>
+    </div>
+</article>

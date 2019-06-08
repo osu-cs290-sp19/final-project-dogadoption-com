@@ -1,5 +1,70 @@
 <main class="post-container">
-    {{#each dogData}}
-        {{>post}}
+    {{#each dog}}
+        {{> post}}
     {{/each}}
 </main>
+
+<div id="modal-backdrop" class="hidden"></div>
+    <div id="create-dog-modal" class="hidden">
+      <div class="modal-dialog">
+        <div class="modal-header">
+          <h3>Post your dog for adoption</h3>
+          <button type="button" class="modal-close-button">&times;</button>
+        </div>
+        <div class="modal-body">
+          <div class="dog-input-element">
+            <label for="Name">Dog Name</label>
+            <textarea id="dog-name"></textarea>
+          </div>
+          <div class="dog-input-element">
+            <label for="Name">Breed</label>
+            <textarea id="dog-breed"></textarea>
+          </div>
+          <div class="dog-input-element">
+            <label for="Name">Price</label>
+            <textarea id="dog-price"></textarea>
+          </div>
+          <div class="dog-input-element">
+            <label for="Name">Gender</label>
+            <textarea id="dog-gender"></textarea>
+          </div>
+          <div class="dog-input-element">
+            <label for="Name">Description</label>
+            <textarea id="dog-description"></textarea>
+          </div>
+          <div class="dog-input-element">
+            <label for="Name">Picture url</label>
+            <textarea id="dog-url"></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="modal-cancel-button">Cancel</button>
+          <button type="button" class="modal-accept-button">Submit Dog</button>
+        </div>
+
+      </div>
+    </div>
+</div>
+
+
+<div id="modal-backdrop" class="hidden"></div>
+    <div id="adopt-dog-modal" class="hidden">
+      <div class="modal-dialog">
+        <div class="modal-header">
+          <h3>Enter the name of the dog you would like to adopt</h3>
+          <button type="button" class="modal-close-button">&times;</button>
+        </div>
+        <div class="modal-body">
+          <div class="dog-input-element">
+            <label for="Name">Dog Name</label>
+            <textarea id="dog-name-to-adopt"></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="modal-cancel-button">Cancel</button>
+          <button type="button" class="modal-accept-button" id="adopt-dog-accept">Adopt Dog</button>
+        </div>
+      </div>
+    </div>
+</div>
+
