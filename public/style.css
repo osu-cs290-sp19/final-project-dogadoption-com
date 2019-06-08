@@ -33,6 +33,11 @@ a {
   display: inline-block;
 }
 
+#cart{
+  position: absolute;
+  right: 270px;
+}
+
 a {
   color: #343434;
 }
@@ -59,8 +64,8 @@ a:focus {
 
 .navitem.navbar-search {
   position: absolute;
-  top:350px;
-  right:10px;
+  top: 252px;
+  right:20px;
   padding: 1px;
 }
 
@@ -95,6 +100,11 @@ a:focus {
   outline: none;
 }
 
+.row > .column {
+  width: 100%;
+  height: 100%;
+}
+
 .post-container {
   margin: 30px ;
   display: flex;
@@ -111,10 +121,8 @@ a:focus {
 .content {
   position: relative;
   bottom: 10px;
-  padding-left: 2px;
-  padding-right: 2px;
-
-  height: 100px;
+  height: 25%;
+  width: 100%;
 }
 
 .post-content {
@@ -127,9 +135,8 @@ a:focus {
 }
 
 .picture {
-  padding: 5px;
-  width: 390px;
-  height: 390px;
+  width: 100%;
+  height: 75%;
   position: relative;
 }
 
@@ -152,8 +159,8 @@ a:focus {
   background: #000;
   left: 30px;
   bottom: 30px;
-  height: 60px;
-  width: 60px;
+  height: 40px;
+  width: 40px;
   font-size: 20px;
   background-color: rgb(210, 172, 235);
   color: #fff;
