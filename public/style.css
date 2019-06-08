@@ -119,19 +119,6 @@ a:focus {
   background: rgb(210, 172, 235);
 }
 
-.name {
-  position: relative;
-  top: 5px;
-}
-
-.description {
-  position: relative;
-  height: 75px;
-  word-break:break-all;
-  padding: 10px;
-  margin: 0px;
-  bottom: 15px;
-}
 
 .content {
   flex: 1 32%;
@@ -287,3 +274,4 @@ a:focus {
 .modal-footer .modal-accept-button:hover {
   background-color: #087dde;
 }
+
