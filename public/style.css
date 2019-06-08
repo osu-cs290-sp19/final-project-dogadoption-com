@@ -27,69 +27,115 @@ a {
 .navitem {
   display: inline-block;
 }
-
 #cart{
   position: absolute;
   right: 270px;
 }
-
 a {
   color: #343434;
 }
-@@ -59,8 +64,8 @@ a:focus {
-
+a:hover,
+a:focus {
+  color: rgb(210, 172, 235);
+}
+a:focus {
+  outline: none;
+}
+.navlink a {
+  padding: 8px 10px;
+  display: inline-block;
+}
+.navlink.active {
+  box-shadow: inset 0 -3px rgb(210, 172, 235);
+}
 .navitem.navbar-search {
   position: absolute;
-  top:350px;
-  right:10px;
   top: 252px;
   right:20px;
   padding: 1px;
 }
-
-@@ -95,6 +100,11 @@ a:focus {
+#navbar-search-input {
+  padding: 4px;
+  font-size: 16px;
+  background-color: #eee;
+  border: 1px solid #dadada;
+  border-radius: 2px;
+}
+#navbar-search-input:focus {
+  outline: none;
+  background-color: #fff;
+}
+#navbar-search-button {
+  margin-left: -5px;
+  font-size: 16px;
+  background: none;
+  border: none;
+  color: rgb(210, 172, 235);
+  cursor: pointer;
+}
+#navbar-search-button:hover {
+  color: #319df6;
+}
+#navbar-search-button:focus {
+  color: #319df6;
   outline: none;
 }
-
 .row > .column {
   width: 100%;
   height: 100%;
 }
-
 .post-container {
   margin: 30px ;
   display: flex;
-@@ -111,10 +121,8 @@ a:focus {
+  flex-wrap: wrap;
+}
+.post {
+  width: 400px;
+  height: 670px;
+  border: 5px solid rgb(210, 172, 235);
+  margin: 7px;
+  background: rgb(210, 172, 235);
+}
+
+.name {
+  position: relative;
+  top: 5px;
+}
+
+.description {
+  position: relative;
+  height: 75px;
+  word-break:break-all;
+  padding: 10px;
+  margin: 0px;
+  bottom: 15px;
+}
+
 .content {
-  position: relative;
-  bottom: 10px;
-  padding-left: 2px;
-  padding-right: 2px;
-
-  height: 100px;
-  height: 25%;
+  flex: 1 32%;
+  background-color: #fff;
+  text-align: center;
+  height: 32.5%;
   width: 100%;
 }
-
-.post-content {
-@@ -127,9 +135,8 @@ a:focus {
-}
-
 .picture {
-  padding: 5px;
-  width: 390px;
-  height: 390px;
   width: 100%;
-  height: 75%;
+  height: 65%;
   position: relative;
 }
-
-@@ -152,8 +159,8 @@ a:focus {
+.picture > img {
+  width: 100%;
+  height: 100%;
+}
+.hidden {
+  display: none;
+}
+#create-adoption-button {
+  /*creates a square button*/
+  position: fixed;
   background: #000;
   left: 30px;
   bottom: 30px;
-  height: 60px;
-  width: 60px;
   height: 40px;
   width: 40px;
   font-size: 20px;
