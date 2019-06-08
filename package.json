@@ -1,0 +1,20 @@
+{
+  "name": "cs290final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osu-cs290-sp19/final-project-dogadoption-com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osu-cs290-sp19/final-project-dogadoption-com/issues"
+  },
+  "homepage": "https://github.com/osu-cs290-sp19/final-project-dogadoption-com#readme"
+}
