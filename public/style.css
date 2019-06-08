@@ -38,6 +38,7 @@ a {
   right: 270px;
 }
 
+
 a {
   color: #343434;
 }
@@ -137,8 +138,10 @@ a:focus {
   flex: 1 32%;
   background-color: #fff;
   text-align: center;
-  height: 32.5%;
+  height: 30%;
   width: 100%;
+  position: relative;
+  bottom: 10px;
 }
 
 .picture {
@@ -152,12 +155,23 @@ a:focus {
   height: 100%;
 }
 
+.cart{ 
+  color: white;
+  position: relative;
+  left: 160px;
+  top: 3px;
+}
+
+
 
 .hidden {
   display: none;
 }
 
-
+a.cart:hover{
+  color: blue;
+  cursor: pointer;
+}
 
 
 #create-adoption-button {
