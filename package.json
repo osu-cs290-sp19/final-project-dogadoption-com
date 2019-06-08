@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/osu-cs290-sp19/final-project-dogadoption-com/issues"
   },
-  "homepage": "https://github.com/osu-cs290-sp19/final-project-dogadoption-com#readme"
+  "homepage": "https://github.com/osu-cs290-sp19/final-project-dogadoption-com#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "handlebars": "^4.1.2"
+  }
 }
