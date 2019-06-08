@@ -158,3 +158,13 @@ var adoptDogAcceptButton = document.getElementById('adopt-dog-accept');
 if (adoptDogAcceptButton) {
   adoptDogAcceptButton.addEventListener('click', adoptDog);
 }
+
+var adoptModalCloseButton = document.getElementById('adopt-modal-close-button');
+if (adoptModalCloseButton) {
+  adoptModalCloseButton.addEventListener("click", hideAdoptModal);
+}
+
+var adoptModalCancelButton = document.querySelector(".adopt-modal-cancel-button");
+if (adoptModalCancelButton) {
+  adoptModalCancelButton.addEventListener("click", hideAdoptModal);
+}
