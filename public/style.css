@@ -3,11 +3,9 @@ body {
   margin: 0;
   background-color: #eee;
 }
-
 a {
   text-decoration: none;
 }
-
 .site-title {
   margin: 0;
   text-align: center;
@@ -16,60 +14,51 @@ a {
   background-color: rgb(210, 172, 235);
   color: #fff;
 }
-
 .navbar {
   background-color: #fff;
   font-size: 18px;
   line-height: 22px;
   margin: 0;
 }
-
 .navlist {
   margin: 0 0 0 20px;
   padding: 0;
 }
-
 .navitem {
   display: inline-block;
 }
-
 #cart{
   position: absolute;
   right: 270px;
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 6919439a171fb6987d217943e3c0f0e58f6253e6
 a {
   color: #343434;
 }
-
 a:hover,
 a:focus {
   color: rgb(210, 172, 235);
 }
-
 a:focus {
   outline: none;
 }
-
 .navlink a {
   padding: 8px 10px;
   display: inline-block;
 }
-
 .navlink.active {
   box-shadow: inset 0 -3px rgb(210, 172, 235);
 }
-
-
-
 .navitem.navbar-search {
   position: absolute;
   top: 252px;
   right:20px;
   padding: 1px;
 }
-
 #navbar-search-input {
   padding: 4px;
   font-size: 16px;
@@ -77,12 +66,10 @@ a:focus {
   border: 1px solid #dadada;
   border-radius: 2px;
 }
-
 #navbar-search-input:focus {
   outline: none;
   background-color: #fff;
 }
-
 #navbar-search-button {
   margin-left: -5px;
   font-size: 16px;
@@ -91,27 +78,22 @@ a:focus {
   color: rgb(210, 172, 235);
   cursor: pointer;
 }
-
 #navbar-search-button:hover {
   color: #319df6;
 }
-
 #navbar-search-button:focus {
   color: #319df6;
   outline: none;
 }
-
 .row > .column {
   width: 100%;
   height: 100%;
 }
-
 .post-container {
   margin: 30px ;
   display: flex;
   flex-wrap: wrap;
 }
-
 .post {
   width: 400px;
   height: 670px;
@@ -143,17 +125,16 @@ a:focus {
   position: relative;
   bottom: 10px;
 }
-
 .picture {
   width: 100%;
   height: 65%;
   position: relative;
 }
-
 .picture > img {
   width: 100%;
   height: 100%;
 }
+<<<<<<< HEAD
 
 .cart{ 
   color: white;
@@ -174,6 +155,11 @@ a.cart:hover{
 }
 
 
+=======
+.hidden {
+  display: none;
+}
+>>>>>>> 6919439a171fb6987d217943e3c0f0e58f6253e6
 #create-adoption-button {
   /*creates a square button*/
   position: fixed;
@@ -188,23 +174,19 @@ a.cart:hover{
   cursor: pointer;
   
 }
-
 #create-adoption-button:hover,
 #create-adoption-button:focus {
   left: 30px;
   bottom: 30px;
   height: 60px;
   width: 60px;
-
   font-size: 36px;
   background-color: white;
   color : rgb(210, 172, 235);
 }
-
 #create-adoption-button:focus {
   outline: none;
 }
-
 #modal-backdrop {
   position: fixed;
   top: 0;
@@ -214,8 +196,6 @@ a.cart:hover{
   z-index: 1000;
   background-color: rgba(0, 0, 0, 0.85);
 }
-
-
 #create-dog-modal {
   position: fixed;
   top: 0;
@@ -225,7 +205,6 @@ a.cart:hover{
   z-index: 1010;
   overflow: scroll;
 }
-
 #adopt-dog-modal {
   position: fixed;
   top: 0;
@@ -235,7 +214,6 @@ a.cart:hover{
   z-index: 1010;
   overflow: scroll;
 }
-
 .modal-dialog {
   width: auto;
   max-width: 600px;
@@ -245,17 +223,14 @@ a.cart:hover{
   background-color: #fff;
   border-radius: 15px;
 }
-
 .modal-header {
   position: relative;
   padding: 10px 20px;
 }
-
 .modal-header h3 {
   margin: 0;
   font-size: 28px;
 }
-
 .modal-close-button {
   position: absolute;
   right: 10px;
@@ -266,18 +241,14 @@ a.cart:hover{
   padding: 0;
   cursor: pointer;
 }
-
 .modal-body {
   padding: 20px;
 }
-
-
 .modal-footer {
   display: flex;
   justify-content: flex-end;
   padding: 10px 10px 20px 10px;
 }
-
 .modal-footer button {
   font-size: 20px;
   background-color: #fff;
@@ -288,16 +259,13 @@ a.cart:hover{
   margin-right: 20px;
   cursor: pointer;
 }
-
 .modal-footer .modal-cancel-button:hover {
   background-color: #eee;
 }
-
 .modal-footer .modal-accept-button {
   background-color: #319df6;
   color: #fff;
 }
-
 .modal-footer .modal-accept-button:hover {
   background-color: #087dde;
 }
