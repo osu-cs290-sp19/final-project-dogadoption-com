@@ -61,6 +61,10 @@ app.post('/addDog', function (req, res, next) {
     }
 });
 
+app.get('/aboutUs', function (req, res, next) {
+    res.status(200).render('aboutUs');
+});
+
 app.post('/adoptDog', function(req, res, next) {
     if( req.body, req.body.name) {
         var collection = db.collection('dogData');
