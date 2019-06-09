@@ -44,7 +44,7 @@ a:focus {
   display: inline-block;
 }
 .navlink.active {
-  box-shadow: inset 0 -3px rgb(210, 172, 235);
+  box-shadow: inset 0 -3px #ffd2cd;
 }
 .navitem.navbar-search {
   position: absolute;
@@ -87,17 +87,84 @@ a:focus {
   display: flex;
   flex-wrap: wrap;
 }
+
+.post-content {
+  background-color: #ffd2cd;
+  position: relative;
+  bottom: 10px;
+}
 .post {
   width: 450px;
-  height: 670px;
-  border: 5px solid rgb(210, 172, 235);
+  height: 720px;
+  border: 12px solid rgb(210, 172, 235);
   margin: 25px;
   background: rgb(210, 172, 235);
 }
 
 .name {
   position: relative;
+  text-align: center;
   top: 5px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#dog-name-to-adopt {
+  position: relative;
+  left: 300px;
+}
+
+.prompt-header {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(210, 172, 235);
+
+}
+
+#dog-name {
+  position: relative;
+  left: 300px;
+}
+
+#dog-breed {
+  position: relative;
+  left: 332px;
+}
+
+#dog-price {
+  position: relative;
+  left: 336px;
+}
+
+#dog-gender {
+  position: relative;
+  left: 322px;
+}
+
+#dog-description {
+  position: relative;
+  left: 294px;
+}
+
+#dog-url {
+  position: relative;
+  left: 303px;
+}
+
+.input-to-post {
+  font-weight: 700;
+}
+
+
+.breed {
+  text-align: center;
+}
+
+.price {
+  text-align: center;
+}
+
+.gender {
+  text-align: center;
 }
 
 .description {
@@ -107,6 +174,7 @@ a:focus {
   padding: 10px;
   margin: 0px;
   bottom: 15px;
+  text-align: center;
 }
 
 .content {
@@ -135,8 +203,6 @@ a:focus {
   top: 3px;
 }
 
-
-
 .hidden {
   display: none;
 }
@@ -144,6 +210,19 @@ a:focus {
 a.cart:hover{
   color: blue;
   cursor: pointer;
+}
+
+.description-text {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 17px;
+}
+
+.nav-text {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.site-title {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
@@ -169,7 +248,7 @@ a.cart:hover{
   width: 60px;
   font-size: 36px;
   background-color: white;
-  color : rgb(210, 172, 235);
+  color : #ffd2cd;
 }
 #create-adoption-button:focus {
   outline: none;
@@ -250,9 +329,9 @@ a.cart:hover{
   background-color: #eee;
 }
 .modal-footer .modal-accept-button {
-  background-color: #319df6;
+  background-color:  #ffd2cd;;
   color: #fff;
 }
 .modal-footer .modal-accept-button:hover {
-  background-color: #087dde;
+  background-color: #ffd2cd;;
 }
