@@ -6,3 +6,5 @@ export MONGO_HOST="classmongo.engr.oregonstate.edu"
 export MONGO_USER="cs290_kimbri"
 export MONGO_PASSWORD="cs290_kimbri"
 export MONGO_DB_NAME="cs290_kimbri"
+
+NOTE: must be on OSU wifi or use VPN to connect to mongoDB server
