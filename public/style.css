@@ -105,7 +105,7 @@ a:focus {
 .post-content {
   background-color: #ffd2cd;
   position: relative;
-  top: 5px;
+  top: -10px;
   border-radius: 20px;
 }
 .post {
@@ -114,15 +114,15 @@ a:focus {
   border: 12px solid rgb(210, 172, 235);
   margin: 25px;
   background: rgb(210, 172, 235);
-  border-radius: 10px;
+  border-radius: 27px;
 }
 
-.name {
+.name.description-text {
   position: relative;
   text-align: center;
   top: 5px;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 23px;
 }
 
 #dog-name-to-adopt {
@@ -143,12 +143,12 @@ a:focus {
 
 #dog-breed {
   position: relative;
-  left: 332px;
+  left: 331px;
 }
 
 #dog-price {
   position: relative;
-  left: 336px;
+  left: 335px;
 }
 
 #dog-gender {
@@ -158,12 +158,12 @@ a:focus {
 
 #dog-description {
   position: relative;
-  left: 294px;
+  left: 293px;
 }
 
 #dog-url {
   position: relative;
-  left: 303px;
+  left: 300px;
 }
 
 .input-to-post {
