@@ -97,9 +97,10 @@ a:focus {
   height: 100%;
 }
 .post-container {
-  margin: 30px ;
+  margin: 0px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .post-content {
@@ -109,7 +110,7 @@ a:focus {
   border-radius: 20px;
 }
 .post {
-  width: 450px;
+  width: 500px;
   height: 760px;
   border: 12px solid rgb(210, 172, 235);
   margin: 25px;
