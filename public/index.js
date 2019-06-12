@@ -70,9 +70,10 @@ function addDog() {
   var dogDescription = document.getElementById('dog-description').value;
   var dogUrl = document.getElementById('dog-url').value;
 
-  var request = new XMLHttpRequest();
+  var postRequest = new XMLHttpRequest();
   var url = '/addDog';
-  request.open('POST', url);
+  postRequest.open('POST', url);
+  console.log("chimmi");
 
   var requestBody = JSON.stringify({
     name: dogName,
@@ -82,27 +83,27 @@ function addDog() {
     description: dogDescription,
     url: dogUrl
   });
-
-  request.addEventListener('load', function(event) {
+  postRequest.addEventListener('load', function(event) {
     if (event.target.status === 200) {
-      var postContext = {
-        name: dName,
-        breed: dBreed,
-        price: dPrice,
-        gender: dGender,
-        description: dDescription,
-        url: dUrl
-      };  
-      var postCard = Handlebars.templates.post(postContext);
-      var postContainer = document.querySelector(".post-container");    //not working
-      postContainer.insertAdjacentHTML('beforeend', postCard);
+      
     } else {
       alert("error adding dog: " + event.target.response);
     }
   });
+  var postContext = {
+    name: dogName,
+    breed: dogBreed,
+    price: dogPrice,
+    gender: dogGender,
+    description: dogDescription,
+    url: dogUrl
+  };  
+  var postCard = Handlebars.templates.post(postContext);
+  var postContainer = document.querySelector(".post-container");    //not working
+  postContainer.insertAdjacentHTML('beforeend', postCard);
   hidePostModal();
-  request.setRequestHeader('Content-Type', 'application/json');
-  request.send(requestBody);
+  postRequest.setRequestHeader('Content-Type', 'application/json');
+  postRequest.send(requestBody);
 }
 
 function adoptDog (){
